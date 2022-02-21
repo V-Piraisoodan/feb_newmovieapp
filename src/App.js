@@ -147,7 +147,7 @@ function Movie({name,pic,rating,summary}){
        <p className='movie-rating'>⭐{rating}</p>
       </div>
       <p className='movie-summary'>{summary}</p>
-      {/* <Counter/> */}
+      <Counter/>
     </div>
   );
 }
